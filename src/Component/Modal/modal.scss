@@ -1,0 +1,31 @@
+.modal {
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+
+  background-color: var(--bg-color-modal-secondary-700);
+  &__body {
+    padding: 20px;
+    height: 100%;
+    background-color: var(--bg-color-modal-primary);
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__content {
+    flex: 1 1 auto;
+  }
+
+  @media (min-width: 430px) {
+    background-color: var(--bg-color-modal-secondary-500);
+    &__body {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+  }
+}

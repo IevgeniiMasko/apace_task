@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+@import "_nullstyle";
+
+:root {
+  --bg-color-app: #ecf3fe;
+  --bg-color-block: #fff;
+
+  --bg-color-button: rgb(215, 215, 215);
+  --bg-color-button-hover: rgb(202, 202, 202);
+
+  --bg-color-modal-primary: #fff;
+  --bg-color-modal-secondary-500: rgb(209, 209, 209);
+  --bg-color-modal-secondary-700: rgb(125, 125, 125);
+}
+
+body {
+  font-family: "PT Sans";
+  background-color: var(--bg-color-app);
+}
